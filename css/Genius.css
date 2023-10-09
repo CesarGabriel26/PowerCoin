@@ -1,0 +1,50 @@
+.Genius {
+    --CellSize : 150px;
+
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    background: rgba(255, 0, 0,.1)
+}
+
+.GeniusDisplay {
+    height: calc(2* var(--CellSize));
+    width: calc(2* var(--CellSize));
+
+    display: flex;
+    justify-content: center;
+}
+
+.GeniusDisplay span {
+    display: block;
+    height: var(--CellSize);
+    width: var(--CellSize);
+    transition: .2s ease-in-out;
+}
+
+.GeniusDisplay span.Clicked {
+    transform: scale(1.1);
+    box-shadow: 10px 10px 20px var(--Color), -10px -10px 20px var(--Color);
+}
+
+.red {
+    --Color : red;
+    background: red;
+}
+.green {
+    --Color : green;
+    background: green;
+}
+.blue {
+    --Color : blue;
+    background: blue;
+}
+.yellow {
+    --Color : yellow;
+    background: yellow;
+}

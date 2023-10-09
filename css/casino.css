@@ -1,0 +1,45 @@
+main {
+    display: flex;
+    height: calc(100% - 74px);
+}
+
+.RightContainer,
+.LeftNav {
+    height: 100%;
+}
+
+.GameItem {
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    background: rgba(var(--bs-secondary-rgb),.4);
+    transition: .2s ease-in;
+}
+
+.GameItem.Active {
+    background: rgba(var(--bs-success-rgb),.8);
+}
+
+.GameItem:hover {
+    background: rgba(var(--bs-secondary-rgb),.8);
+}
+
+.GameItem img.rounded {
+    height: 50px;
+    margin-right: 10px;
+}
+
+.GameItem p {
+    margin: 0;
+}
+
+
+
+#imageLine div {
+    --Size : 110px;
+    background-color: white;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: var(--Size);
+    width: var(--Size);
+}
