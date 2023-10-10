@@ -19,7 +19,7 @@ if (User == null) {
     <a onclick="LoadPage('html/login.html')"  title="Minha Carteira" class="nav-link slide-nav-link" >
         Entrar
     </a>
-    <a href="" title="Minha Carteira" class="Carteira nav-link slide-nav-link" >
+    <a onclick="LoadPage('html/cadastro.html')" title="Minha Carteira" class="Carteira nav-link slide-nav-link" >
         Cadastrar-se
     </a>
     `

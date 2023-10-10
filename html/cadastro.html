@@ -23,7 +23,7 @@
     <main>
 
         <div class="container d-flex justify-content-center align-items-center h-100">
-            <form id="formLog" class="row col-6">
+            <form class="row col-6">
 
                 <div class="col-12 mb-3 text-success text-center">
                     <h1>Liog-in</h1>
@@ -31,19 +31,25 @@
                 
                 <div class="col-12 mb-3">
                     <div class="form-floating">
-                        <input type="text" class="form-control" id="NomeDeUsuario" placeholder="Fulano de Tal">
-                        <label for="NomeDeUsuario">Nome De Usuario</label>
+                        <input type="text" class="form-control" id="floatingInput" placeholder="Fulano de Tal">
+                        <label for="floatingInput">Nome De Usuario</label>
                     </div>
                 </div>
                 <div class="col-12 mb-3">
                     <div class="form-floating">
-                        <input type="text" class="form-control" id="Senha" placeholder="Fulano de Tal">
-                        <label for="Senha">Senha</label>
+                        <input type="text" class="form-control" id="floatingInput" placeholder="Fulano de Tal">
+                        <label for="floatingInput">Senha</label>
+                    </div>
+                </div>
+                <div class="col-12 mb-3">
+                    <div class="form-floating">
+                        <input type="text" class="form-control" id="floatingInput" placeholder="Fulano de Tal">
+                        <label for="floatingInput">Repetir Senha</label>
                     </div>
                 </div>
 
                 <div class="col-12 d-flex align-items-center">
-                    <button type="submit" class="btn btn-outline-success">Entrar</button>
+                    <button class="btn btn-outline-success">Entrar</button>
                     <p class="m-0 ms-4">Ainda não possui uma conta? <a href="">Cadastr-se</a></p>
                 </div>
 
@@ -52,7 +58,6 @@
 
     </main>
 
-    <script src="../js/Login-Singup.js"></script>
 
     <!--! BootStrap-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"

@@ -74,7 +74,7 @@ async function Start() {
     var lg = 4
 
     for (let j = 0; j < lg; j++) {
-        var i = parseInt(Math.random() * 3)
+        var i = parseInt(Math.random() * 4)
 
         GeniusButtons[i].classList.add('Clicked')
         setTimeout(() => {
